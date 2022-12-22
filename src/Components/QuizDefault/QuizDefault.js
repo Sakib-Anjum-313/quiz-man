@@ -3,15 +3,10 @@ import React from 'react';
 const QuizDefault = () => {
     return (
         <div>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
-            <p>plz select any topic</p>
+            
+            <div className='w-full h-screen flex justify-center items-center'>
+                <p className='font-bold text-3xl text-teal-600'>Please Select Any Topic !!!</p>
+            </div>
             
         </div>
     );

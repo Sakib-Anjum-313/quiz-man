@@ -16,7 +16,7 @@ const Home = () => {
                 </div> 
             </div>
 
-            <div className=' grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-5 px-16 md:px-20 pb-20 lg:pt-20'>
+            <div className=' grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-5 px-16 md:px-12 pb-20 lg:pt-20'>
                 {
                 allQuizes.map((quiz) => (
                     <AllQuiz key={quiz.id} quiz={quiz}> </AllQuiz>

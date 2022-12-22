@@ -12,9 +12,9 @@ const AllQuiz = ({ quiz }) => {
     // console.log(quiz);
     return (
         <div >
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-    <Link href="#">
-        <img className="rounded-t-lg" src={quiz.logo} alt="" />
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+    <Link onClick={() => {setlink(qkz);}} to={`/quiz/${quiz.id}`}>
+        <img className="rounded-t-lg h-64 w-full " src={quiz.logo} alt="" />
     </Link>
     <div className="p-5">
         <Link href="#">

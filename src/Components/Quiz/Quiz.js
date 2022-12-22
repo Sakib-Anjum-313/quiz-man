@@ -24,7 +24,7 @@ const Quiz = () => {
             <p>i am quiz 2</p>
             <p>i am quiz 3</p>
             <div className='mt-8 flex justify-center'>
-                <p className='font-bold text-2xl'>Topic Name: {name }</p>
+                <p className='font-bold text-2xl'>Topic Name:<span className='text-blue-900'> { name }</span></p>
             </div>
             <div>
                 {

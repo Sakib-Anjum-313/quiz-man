@@ -47,12 +47,12 @@ const QuestionByTopic = ({ question, qid }) => {
     
     return (
         <div>
-            <div className='flex mx-20 mt-20 mb-10 content-center justify-between'>
+            <div className='flex sm:mx-10 mx-20 mt-20 mb-10 content-center justify-between'>
                 <div className='flex'>
                     <p>Question No: <span className='font-bold'>{qid + 1}</span></p>
                     <p className='ml-5 font-medium' dangerouslySetInnerHTML={{ __html: ques }}></p>
                 </div>
-                <div onClick={()=> handleEye(options)} className='text-2xl cursor-help'>
+                <div onClick={()=> handleEye(options)} className='text-2xl cursor-help ml-7'>
                     <ion-icon name="eye-sharp"></ion-icon>
                 </div>
                 
@@ -60,7 +60,7 @@ const QuestionByTopic = ({ question, qid }) => {
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-20 mb-10 gap-4 '>
                
                 {options.map((option, idx) => (
-                    <div key={idx}  onClick={(event) => {handleRightAnswer(option, event)}} className=' shadow-xl bg-gray-100 rounded px-6 py-2 items-center flex cursor-pointer'> <p className='option'>{option}</p> </div>
+                    <div key={idx}  onClick={(event) => {handleRightAnswer(option, event)}} className='px-5 shadow-xl bg-gray-100 rounded lg:px-7 py-2 items-center flex cursor-pointer'> <p className='option'>{option}</p> </div>
                 ))}
             </div>
             <ToastContainer />
