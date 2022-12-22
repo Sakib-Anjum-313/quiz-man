@@ -6,6 +6,15 @@ const Quiz = () => {
     const quizByTopic = useLoaderData();
     // console.log(quizByTopic.data);
     const { total, id, name, questions} = quizByTopic.data;
+
+    const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        // behavior: 'smooth',
+    });
+    };
+    
+    scrollToTop();
     
     
 

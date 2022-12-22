@@ -11,8 +11,8 @@ const Home = () => {
             <div className='mb-10' >
                 <img className='absolute z-[-1]  w-full h-96 lg:h-screen   ' src={img} alt="" />
                 <div className='w-full h-96 lg:h-screen flex flex-col lg:flex-row justify-center items-center'>
-                    <p className='font-bold text-black text-lg md:text-xl lg:text-4xl text-blue-900 '>Your Ultimate </p>
-                    <p className='px-3 font-bold text-black text-lg md:text-xl lg:text-4xl'>Quiz Solution!!!!</p>
+                    <p className='font-bold text-black text-lg md:text-2xl lg:text-5xl xl:text-5xl text-blue-900 '>Your Ultimate </p>
+                    <p className='px-3 font-bold text-black text-lg md:text-2xl lg:text-5xl xl:text-5xl'>Quiz Solution!!!!</p>
                 </div> 
             </div>
 
