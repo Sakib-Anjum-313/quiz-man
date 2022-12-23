@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blogs from './Components/Blogs/Blogs';
 import Home from './Components/Home/Home';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
 import Quiz from './Components/Quiz/Quiz';
 import QuizDefault from './Components/QuizDefault/QuizDefault';
 import Statistics from './Components/Statistics/Statistics';
@@ -48,7 +49,7 @@ function App() {
     },
     {
       path: '*',
-      element:<p>This route not found</p>
+      element: <PageNotFound></PageNotFound>
     }
   ])
   return (
