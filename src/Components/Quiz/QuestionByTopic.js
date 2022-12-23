@@ -49,7 +49,7 @@ const QuestionByTopic = ({ question, qid }) => {
         <div>
             <div className='flex sm:mx-10 mx-20 mt-20 mb-10 content-center justify-between'>
                 <div className='flex'>
-                    <p>Question No: <span className='font-bold'>{qid + 1}</span></p>
+                    <p>Quiz No: <span className='font-bold'>{qid + 1}</span></p>
                     <p className='ml-5 font-medium text-center' dangerouslySetInnerHTML={{ __html: ques }}></p>
                 </div>
                 <div onClick={()=> handleEye(options)} className='text-2xl cursor-help ml-7'>
